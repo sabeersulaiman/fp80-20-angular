@@ -1,0 +1,7 @@
+<ul *ngIf="dog">
+    <li>Name: {{ dog.name }}</li>
+    <li>Age: {{ dog.age }}</li>
+    <li>Description: {{ dog.description }}</li>
+</ul>
+
+<button (click)="delete.emit(dog)">Delete</button>

@@ -1,0 +1,24 @@
+<div class="topbar">
+    <div class="logo">
+        <div class="lbox"></div>
+        <h1>Dog House</h1>
+    </div>
+    <div class="user">
+        <div class="img"></div>
+        <div class="namer">
+            <p class="name">Dog Admin</p>
+            <p class="pos">Administrator</p>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="menu">
+        <div class="menu-item">
+            <a [routerLink]="['dogs']">Manage Dogs</a>
+        </div>
+        <div class="menu-item">
+            <a [routerLink]="['volunteers']">Manage Volunteers</a>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>
